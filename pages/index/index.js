@@ -4,7 +4,7 @@ const app = getApp()
 Page({
 
   //跳转点餐页
-  tapName: function () {
+  tapName: function() {
     wx.navigateTo({
       url: '../startOrdering/startOrdering'
     })
