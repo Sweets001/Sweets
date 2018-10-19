@@ -1,0 +1,8 @@
+<!--pages/submitOrder/submitOrder.wxml-->
+<view class="container">
+  <image class="bgImg" src="../../images/bg01.jpg"></image>
+  <image class="logo" src="../../images/logo.png"></image>
+  <view class="content">
+    <view class=""></view>
+  </view>
+</view>

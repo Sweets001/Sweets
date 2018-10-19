@@ -1,0 +1,28 @@
+<!-- pages/startOrdering/startOrdering.wxml -->
+<view class="contanier">
+  <!-- 头部背景 -->
+  <image class="header-bg" src="../../images/head-bg.jpg"></image>
+  <!-- 内容 -->
+  <view class="content clearfix">
+    <!-- 左侧tab -->
+    <view class="left-nav float-l">
+      <view class="nav-item {{activeItem === index ? 'active' : ''}}" wx:for="{{menuTypeList}}" wx:key="item.id" bindtap="tabToggle" data-index="{{index}}">
+        <image wx-if="{{activeItem !== index}}" class="item-img" src="../../images/tab-ordering.jpg"></image>
+        <image wx-if="{{activeItem === index}}" class="item-img" src="../../images/tab-ordering-active.jpg"></image>
+        <image class="item-icon" src="{{item.typeIcon}}"></image>
+        <text class="item-text">{{item.text}}</text>
+      </view>
+    </view>
+    <!-- 右侧列表 -->
+    <scroll-view scroll-y style="height: {{listHeight}}rpx" class="right-list float-r">
+      <view class="list-item" wx:for="{{menuList}}" wx:key="item.id">
+        <image class="item-img" src="{{item.foodImg}}"></image>
+        <view class="item-info">
+          <view class="item-name">{{item.foodName}}</view>
+          <view class="item-desc">{{item.foodDesc}}</view>
+        </view>
+        <image class="icon-add" src="../../images/icon-add.png" bindtap="submitOrdering" data-item="{{item}}"></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="bgImg" src="../../images/bg01.jpg"></image>
+  <image class="logo" src="../../images/logo.png"></image>
+  <view class="part">
+    <view class="part01 clearfix">
+      <view class="part01-img float-l">
+        <image src="../../images/icon-yy.png"></image>
+          <text>|</text>
+      </view>
+        <view class="part01-img02 float-r">
+          <text>预约点餐</text>
+          <image src="../../images/icon-arrow.png"></image>
+      </view>
+    </view>
+      <view class="part01 second clearfix">
+        <view class="part01-img float-l">
+          <image src="../../images/icon-dc.png"></image>
+            <text>|</text>
+        </view>
+          <view class="part01-img02 float-r">
+            <text>我的点餐</text>
+            <image src="../../images/icon-arrow.png"></image> 
+        </view>
+    </view>
+      <view class="part01 thrid clearfix">
+        <view class="part01-img float-l">
+          <image src="../../images/icon-back.png"></image>
+            <text>|</text>
+        </view>
+          <view class="part01-img02 float-r">
+            <text>取消预约</text>
+            <image src="../../images/icon-arrow.png"></image> 
+        </view>
+    </view>
+  </view>
+  <view class="button" bindtap="tapName">
+    <image src="../../images/btn-begin.png"></image>
+    <text>(请务必在下午4:30-5:00之间点餐)</text>
+  </view>
+
+</view>

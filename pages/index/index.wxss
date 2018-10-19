@@ -1,0 +1,120 @@
+/**index.wxss**/
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container .bgImg {
+  width: 100%;
+  height: 100%;
+}
+
+.container .logo {
+  width: 352 rpx;
+  height: 80 rpx;
+  position: absolute;
+  left: 50%;
+  top: 80 rpx;
+  transform: translateX(-50%);
+}
+
+.container .part {
+  width: 640 rpx;
+  height: 580 rpx;
+  position: absolute;
+  top: 200 rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .part .part01 {
+  width: 100%;
+  height: 160 rpx;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 8px -8px rgba(8, 51, 124, 0.2);
+  position: relative;
+  margin-top: 20px;
+}
+
+.container .part .part01 .part01-img {
+  width: 175 rpx;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.container .part .part01 .part01-img image {
+  width: 50 rpx;
+  height: 52 rpx;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .part .second .part01-img image {
+  width: 51 rpx;
+  height: 42 rpx;
+}
+
+.container .part .third .part01-img image {
+  width: 42 rpx;
+  height: 52 rpx;
+}
+
+.container .part .part01 .part01-img text {
+  color: #ddd;
+  float: right;
+  margin-top: 55 rpx;
+}
+
+.container .part .part01 .part01-img02 {
+  width: 460 rpx;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.container .part .part01 .part01-img02 image {
+  width: 16 rpx;
+  height: 30 rpx;
+  display: block;
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .part .part01 .part01-img02 text {
+  font-size: 36 rpx;
+  color: #99bfff;
+  line-height: 160 rpx;
+  text-align: center;
+  display: block;
+  margin-left: -15 rpx;
+}
+
+.button {
+  width: 432 rpx;
+  height: 130 rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 900 rpx;
+  text-align: center;
+}
+
+.button image {
+  width: 432 rpx;
+  height: 98 rpx;
+}
+
+.button text {
+  font-size: 24 rpx;
+  color: #b4b4b4;
+}

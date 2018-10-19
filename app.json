@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/startOrdering/startOrdering",
+    "pages/submitOrder/submitOrder"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "幸运坐标-加班点餐系统",
+    "navigationBarTextStyle":"#000"
+  }
+}
